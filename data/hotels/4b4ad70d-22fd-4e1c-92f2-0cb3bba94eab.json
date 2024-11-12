@@ -1,0 +1,38 @@
+{
+  "title": "City Center Loft",
+  "description": "Modern urban loft in the heart of downtown. Walking distance to major attractions, restaurants, and shopping.",
+  "guestCount": 4,
+  "bedroomCount": 2,
+  "bathroomCount": 1,
+  "amenities": [
+    "High-Speed Internet",
+    "Gym Access",
+    "Secured Parking",
+    "Concierge Service",
+    "Rooftop Terrace"
+  ],
+  "host": {
+    "name": "David Chen",
+    "email": "david@citylofts.com"
+  },
+  "address": "101 Downtown Avenue, Seattle, WA 98101",
+  "latitude": 47.6062,
+  "longitude": -122.3321,
+  "rooms": [
+    {
+      "id": "master-loft",
+      "name": "Master Loft",
+      "capacity": 2,
+      "pricePerNight": 180
+    },
+    {
+      "id": "guest-studio",
+      "name": "Guest Studio",
+      "capacity": 2,
+      "pricePerNight": 150
+    }
+  ],
+  "id": "4b4ad70d-22fd-4e1c-92f2-0cb3bba94eab",
+  "slug": "city-center-loft",
+  "images": []
+}

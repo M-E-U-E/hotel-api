@@ -1,0 +1,39 @@
+{
+  "title": "Beachside Villa",
+  "description": "Luxurious beachfront villa with private access to pristine shores. Ideal for romantic getaways and small family vacations.",
+  "guestCount": 6,
+  "bedroomCount": 2,
+  "bathroomCount": 2,
+  "amenities": [
+    "Private Beach Access",
+    "Pool",
+    "Garden",
+    "BBQ Area",
+    "Air Conditioning",
+    "Smart TV"
+  ],
+  "host": {
+    "name": "Maria Garcia",
+    "email": "maria@beachvillas.com"
+  },
+  "address": "789 Ocean Drive, Key West, FL 33040",
+  "latitude": 24.5551,
+  "longitude": -81.78,
+  "rooms": [
+    {
+      "id": "ocean-suite",
+      "name": "Ocean View Suite",
+      "capacity": 2,
+      "pricePerNight": 300
+    },
+    {
+      "id": "garden-room",
+      "name": "Garden View Room",
+      "capacity": 4,
+      "pricePerNight": 250
+    }
+  ],
+  "id": "f1806943-10cd-4666-9de8-4bf22c134206",
+  "slug": "beachside-villa",
+  "images": []
+}

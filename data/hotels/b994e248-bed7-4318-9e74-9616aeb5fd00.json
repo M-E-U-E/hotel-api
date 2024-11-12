@@ -1,0 +1,39 @@
+{
+  "title": "sumaya",
+  "description": "Charming cottage with panoramic lake views. Perfect for peaceful retreats and outdoor activities.",
+  "guestCount": 5,
+  "bedroomCount": 2,
+  "bathroomCount": 1,
+  "amenities": [
+    "Dock Access",
+    "Kayaks",
+    "Fire Pit",
+    "Fishing Equipment",
+    "Screened Porch",
+    "Board Games"
+  ],
+  "host": {
+    "name": "Emma Wilson",
+    "email": "emma@lakeretreat.com"
+  },
+  "address": "234 Lake Shore Drive, Lake Placid, NY 12946",
+  "latitude": 44.2795,
+  "longitude": -73.9799,
+  "rooms": [
+    {
+      "id": "lake-view",
+      "name": "Lake View Room",
+      "capacity": 3,
+      "pricePerNight": 175
+    },
+    {
+      "id": "forest-view",
+      "name": "Forest View Room",
+      "capacity": 2,
+      "pricePerNight": 500
+    }
+  ],
+  "id": "b994e248-bed7-4318-9e74-9616aeb5fd00",
+  "slug": "sumaya",
+  "images": []
+}

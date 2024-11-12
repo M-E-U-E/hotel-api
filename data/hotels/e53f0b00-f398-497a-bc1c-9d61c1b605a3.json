@@ -1,0 +1,88 @@
+{
+  "title": "Mountain View Lodge",
+  "description": "Cozy mountain retreat with stunning alpine views and modern amenities. Perfect for family getaways and outdoor enthusiasts.",
+  "guestCount": 8,
+  "bedroomCount": 3,
+  "bathroomCount": 2,
+  "amenities": [
+    "Fireplace",
+    "Hot Tub",
+    "Ski Storage",
+    "Free Parking",
+    "WiFi",
+    "Full Kitchen"
+  ],
+  "host": {
+    "name": "John Miller",
+    "email": "john.miller@mtnlodge.com"
+  },
+  "address": "456 Pine Valley Road, Aspen, CO 81611",
+  "latitude": 39.1911,
+  "longitude": -106.8175,
+  "rooms": [
+    {
+      "id": "master-1",
+      "name": "Master Suite",
+      "capacity": 2,
+      "pricePerNight": 200
+    },
+    {
+      "id": "guest-1",
+      "name": "Guest Room",
+      "capacity": 2,
+      "pricePerNight": 150
+    },
+    {
+      "id": "bunk-1",
+      "name": "Bunk Room",
+      "capacity": 4,
+      "pricePerNight": 180
+    }
+  ],
+  "id": "e53f0b00-f398-497a-bc1c-9d61c1b605a3",
+  "slug": "mountain-view-lodge",
+  "images": [
+    {
+      "url": "http://localhost:3000/images/d064faf7-b9a8-4b15-a0f1-e76342d71497-image1.png",
+      "filename": "d064faf7-b9a8-4b15-a0f1-e76342d71497-image1.png",
+      "originalName": "image1.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    },
+    {
+      "url": "http://localhost:3000/images/c59a5615-d67d-455a-8b96-a9f1a88a2e7e-image2.png",
+      "filename": "c59a5615-d67d-455a-8b96-a9f1a88a2e7e-image2.png",
+      "originalName": "image2.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    },
+    {
+      "url": "http://localhost:3000/images/8bd7a750-69a7-407c-8c9d-b407d0c354b1-image3.png",
+      "filename": "8bd7a750-69a7-407c-8c9d-b407d0c354b1-image3.png",
+      "originalName": "image3.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    },
+    {
+      "url": "http://localhost:3000/images/36368c8d-8db6-404d-bb5a-ff98909765ec-image4.png",
+      "filename": "36368c8d-8db6-404d-bb5a-ff98909765ec-image4.png",
+      "originalName": "image4.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    },
+    {
+      "url": "http://localhost:3000/images/2579b2bb-f3ed-4b9b-83e4-d5dc68acf4a7-image5.png",
+      "filename": "2579b2bb-f3ed-4b9b-83e4-d5dc68acf4a7-image5.png",
+      "originalName": "image5.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    },
+    {
+      "url": "http://localhost:3000/images/f870dc91-4f6a-4766-8a8b-45c999394fe4-image6.png",
+      "filename": "f870dc91-4f6a-4766-8a8b-45c999394fe4-image6.png",
+      "originalName": "image6.png",
+      "mimeType": "image/png",
+      "uploadedAt": "2024-11-12T11:49:19.982Z"
+    }
+  ]
+}
