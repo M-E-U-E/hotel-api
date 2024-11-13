@@ -24,7 +24,7 @@ A backend API developed using Node.js and Express.js to manage hotel details. Th
 ```bash
 Method: GET
 URL: http://localhost:3000/api/hotels
-```bash
+exit
 
 Test Steps:
   1.Create new request in Postman
