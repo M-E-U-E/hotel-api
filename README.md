@@ -1,20 +1,29 @@
 # Assignment03
 # Hotel API
 
-A backend API built with Node.js and Express.js for managing hotel details, featuring comprehensive hotel data management, image handling, and endpoint testing.
+A backend API built with TypeScript.ts , Node.js  Express.js for managing hotel details, featuring comprehensive hotel data management, image handling, and endpoint testing.
 
 ## Table of Contents
 - [Description](#description)
+- [Git Clone Instructions](#git-clone-instructions)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
+- [Validation](#validation)
 - [Schema](#schema)
 - [Dependencies](#dependencies)
-- [Git Clone Instructions](#git-clone-instructions)
+
 
 ## Description
-A backend API developed using Node.js and Express.js to manage hotel details. The API provides endpoints for interacting with hotel data stored in JSON files, allowing operations such as retrieving, inserting, and updating hotel records. The system includes unit tests to verify endpoint functionality and supports image upload capabilities.
 
+A backend API using Node.js, Express.js, and TypeScript for managing hotel data. This API will feature comprehensive hotel data management, including hotel creation, updating hotel details, retrieving hotel information, and handling image uploads. Additionally, we will set up endpoint testing using libraries like Jest and Supertest to ensure the API works as expected.
+
+## Git Clone Instructions
+
+To clone this project to your local machine, follow these steps:
+
+1. **Open terminal (Command Prompt, PowerShell, or Terminal)**
+2. **Clone the repository**: git clone https://github.com/M-E-U-E/hotel-api.git
 ## Features
 
 ### Endpoint Operations & Testing Guide
@@ -139,7 +148,14 @@ hotel-api/
 - **Jest**: Testing framework for unit and integration tests
 - **Supertest**: HTTP endpoint testing library
 - **File System (fs)**: Node.js module for file operations
+- 
+## Validation
 
+validation logic for hotel data to handle potential errors before saving or processing the data.
+    1.Title Validation: Ensures the title is a non-empty string.
+    2.Bedroom Count Validation: Checks that bedroomCount is a positive integer.
+    3.Address Validation: Verifies that address is a non-empty string
+    
 ## Schema
 ```json
 {
@@ -197,9 +213,4 @@ hotel-api/
 - **Jest & Supertest**: Testing frameworks
 - **File System Module**: Built-in Node.js module
 
-## Git Clone Instructions
 
-To clone this project to your local machine, follow these steps:
-
-1. **Open terminal (Command Prompt, PowerShell, or Terminal)**
-2. **Clone the repository**: git clone [repository-url]
