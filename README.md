@@ -43,7 +43,7 @@ A backend API developed using Node.js and Express.js to manage hotel details. Th
   - Modifies title, description, etc.
   - Uses unique ID for hotel identification
   - Accepts updated information in request body
-  - 
+    
 ## Git Clone Instructions
 
 To clone this project to your local machine, follow these steps:
@@ -59,7 +59,7 @@ To clone this project to your local machine, follow these steps:
     3. Enter URL: http://localhost:3000/api/hotels
     4. Click "Send"
    
-Create a new hotel:
+-Create a new hotel:
     1. Open Postman
     2. Click "New" → "Request"
     3. Select "POST" from the dropdown
@@ -75,7 +75,7 @@ Create a new hotel:
     9. Click "Send"
     10. Save the "id" from the response for next requests
 
-Get specific hotel:
+-Get specific hotel:
     1. Create new request
     2. Select "GET"
     3. Enter URL: http://localhost:3000/api/hotels/{paste-hotel-id-here}
@@ -93,7 +93,7 @@ Update hotel:
     }
     6. Click "Send"
 
-Upload images:
+-Upload images:
     1. Create new request
     2. Select "POST"
     3. Enter URL: http://localhost:3000/api/images
