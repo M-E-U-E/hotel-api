@@ -138,50 +138,50 @@ hotel-api/
 
 ## Schema
 {
-  "type": "object",
-  "properties": {
-    "hotel_id": { "type": "string" },
-    "slug": { "type": "string" },
-    "images": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "title": { "type": "string" },
-    "description": { "type": "string" },
-    "guest_count": { "type": "integer" },
-    "bedroom_count": { "type": "integer" },
-    "bathroom_count": { "type": "integer" },
-    "amenities": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "host_information": {
-      "type": "object",
-      "properties": {
-        "name": { "type": "string" },
-        "contact": { "type": "string" }
-      },
-      "required": ["name", "contact"]
-    },
-    "address": { "type": "string" },
-    "latitude": { "type": "number" },
-    "longitude": { "type": "number" },
-    "rooms": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "hotel_slug": { "type": "string" },
-          "room_slug": { "type": "string" },
-          "room_image": { "type": "string" },
-          "room_title": { "type": "string" },
-          "bedroom_count": { "type": "integer" }
-        },
-        "required": ["hotel_slug", "room_slug", "room_image", "room_title", "bedroom_count"]
-      }
-    }
-  },
-  "required": ["hotel_id", "slug", "title", "description", "guest_count", "bedroom_count", "bathroom_count", "amenities", "host_information", "address", "latitude", "longitude", "rooms"]
+"type": "object",
+"properties": {
+"hotel_id": { "type": "string" },
+"slug": { "type": "string" },
+"images": {
+"type": "array",
+"items": { "type": "string" }
+},
+"title": { "type": "string" },
+"description": { "type": "string" },
+"guest_count": { "type": "integer" },
+"bedroom_count": { "type": "integer" },
+"bathroom_count": { "type": "integer" },
+"amenities": {
+"type": "array",
+"items": { "type": "string" }
+},
+"host_information": {
+"type": "object",
+"properties": {
+"name": { "type": "string" },
+"contact": { "type": "string" }
+},
+"required": ["name", "contact"]
+},
+"address": { "type": "string" },
+"latitude": { "type": "number" },
+"longitude": { "type": "number" },
+"rooms": {
+"type": "array",
+"items": {
+"type": "object",
+"properties": {
+"hotel_slug": { "type": "string" },
+"room_slug": { "type": "string" },
+"room_image": { "type": "string" },
+"room_title": { "type": "string" },
+"bedroom_count": { "type": "integer" }
+},
+"required": ["hotel_slug", "room_slug", "room_image", "room_title", "bedroom_count"]
+}
+}
+},
+"required": ["hotel_id", "slug", "title", "description", "guest_count", "bedroom_count", "bathroom_count", "amenities", "host_information", "address", "latitude", "longitude", "rooms"]
 }
 
 ## Dependencies
