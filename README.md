@@ -5,9 +5,8 @@ A backend API built with Node.js and Express.js for managing hotel details, feat
 
 ## Table of Contents
 - [Description](#description)
-- [Features](#features)
 - [Git Clone Instructions](#git-clone-instructions)
-- [Instructions](#Instructions)
+- [Features](#features)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Schema](#schema)
@@ -19,7 +18,19 @@ A backend API developed using Node.js and Express.js to manage hotel details. Th
 
 ## Features
 
-### Endpoint Operations
+### Endpoint Operations & Testing Guide
+
+#### GET /hotels - Retrieve All Hotels
+```bash
+Method: GET
+URL: http://localhost:3000/api/hotels
+
+Test Steps:
+  1.Create new request in Postman
+  2.Select "GET"
+  3.Enter URL
+  4.Click "Send"
+
 - **POST /hotel**
   - Insert new hotel record
   - Accepts JSON format hotel data
@@ -50,57 +61,6 @@ To clone this project to your local machine, follow these steps:
 
 1. **Open terminal (Command Prompt, PowerShell, or Terminal)**
 2. **Clone the repository**: git clone [repository-url]
-   
-## Instructions:
-
--Get all hotels:
-    1. Create new request
-    2. Select "GET"
-    3. Enter URL: http://localhost:3000/api/hotels
-    4. Click "Send"
-   
--Create a new hotel:
-    1. Open Postman
-    2. Click "New" → "Request"
-    3. Select "POST" from the dropdown
-    4. Enter URL: http://localhost:3000/api/hotels
-    5. Go to "Headers" tab → Add "Content-Type: application/json"
-    6. Go to "Body" tab
-    7. Select "raw" and "JSON"
-    8. Enter the hotel data:
-    {
-        "title": "Test Hotel",
-        "description": "This is a test hotel"
-    }
-    9. Click "Send"
-    10. Save the "id" from the response for next requests
-
--Get specific hotel:
-    1. Create new request
-    2. Select "GET"
-    3. Enter URL: http://localhost:3000/api/hotels/{paste-hotel-id-here}
-    4. Click "Send"
-
-Update hotel:
-    1. Create new request
-    2. Select "PUT"
-    3. Enter URL: http://localhost:3000/api/hotels/{paste-hotel-id-here}
-    4. Add "Content-Type: application/json" header
-    5. In Body (raw/JSON) enter:
-    {
-        "title": "Updated Hotel Name",
-        "description": "Updated description"
-    }
-    6. Click "Send"
-
--Upload images:
-    1. Create new request
-    2. Select "POST"
-    3. Enter URL: http://localhost:3000/api/images
-    4. Select "Body" → "form-data"
-    5. Add key "hotelId" (text) with your hotel ID
-    6. Add key "images" (file) and select image file
-    7. Click "Send"
 
 ## Project Structure
 
