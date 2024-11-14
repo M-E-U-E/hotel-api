@@ -33,6 +33,10 @@ To clone this project to your local machine, follow these steps:
     ```bash
     npm install
     ```
+    Install TypeScript and type definitions:
+    ```bash
+    npm install --save-dev typescript @types/express @types/multer @types/jest
+    ```
     Compile TypeScript files:
     ```bash
     npx tsc
