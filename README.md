@@ -24,37 +24,37 @@ To clone this project to your local machine, follow these steps:
 
 1. **Open terminal (Command Prompt, PowerShell, or Terminal)**
 2. **Clone the repository**: git clone https://github.com/M-E-U-E/hotel-api.git
-
+   
+    Go to the Directory:
+    ```bash
+    cd hotel-api
+    ```
     Install dependencies:
     ```bash
     npm install
     ```
-    
     Compile TypeScript files:
     ```bash
     npx tsc
     ```
+    Test:
+    ```bash
+    npm run test
+    ```
     Run the project:
     
-    Using the compiled JavaScript:
-    ```bash
-    node dist/index.js
-    ```
-    Or run directly with ts-node:
-    ```bash
-    npx ts-node src/index.ts
-    ```
     Check package.json for additional scripts:
-    
-    If the package.json includes a start or dev script, use:
+    Build TypeScript:
     ```bash
-    npm start  # or
+    tsc
+    ```
+    
+    If the package.json includes a  dev script, use:
+    ```bash
     npm run dev
     ```
-    Run tests (if applicable):
-    ```bash
-    npm test
-    ```
+    #### Now open POSTMAN to check API Endpoints
+   
 ## Features
 
 ### Endpoint Operations & Testing Guide
